@@ -17,9 +17,11 @@ pip install -r requirements.txt
 
 Change the hyperparameter values, and most importantly the data folder path
 List of allowed values for arguments:
+
 &nbsp; &nbsp; &nbsp; &nbsp; dataset :  Recidivism, Credit, German
+
 &nbsp; &nbsp; &nbsp; &nbsp; model   :  gcn, sage, appnp
-&nbsp; 
+
 
 ### License
 

@@ -13,10 +13,9 @@ pip install -r requirements.txt
 **Example**
 
 ```bash
-python main.py --dataset = Recidivism --model=gcn --epochs=2000 --max_nodes=10000 --init_lr=0.001 
+python main.py --dataset = Recidivism --model=gcn --epochs=2000 --max_nodes=10000 --init_lr=0.001 --weight_decay=1e-05 --dropout=0.5 --data_folder=/path/to/folder/```
 
-        --weight_decay=1e-05 --dropout=0.5 --data_folder=/path/to/folder/
-
+---
 
 Change the hyperparameter values, and most importantly the data folder path
 

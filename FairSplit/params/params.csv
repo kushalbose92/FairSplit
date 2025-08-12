@@ -1,0 +1,10 @@
+dataset,model,nodes,features,classes,sens_attr,sens_attr_idx,sens_idx,predict_attr,remove_cols,max_nodes,init_lr,weight_decay,epochs,hidden,dropout,fairness_epochs_intval
+Credit,appnp,30000,13,2,Age,1,1,NoDefaultNextMonth,['Single'],15000,0.01,0.001,1000,32,0.5,50
+Credit,gcn,30000,13,2,Age,1,1,NoDefaultNextMonth,['Single'],15000,0.01,0.001,1000,32,0.5,50
+Credit,sage,30000,13,2,Age,1,1,NoDefaultNextMonth,['Single'],15000,0.0001,0.001,2000,32,0.5,50
+German,appnp,1000,27,2,Gender,0,0,GoodCustomer,"['OtherLoansAtStore', 'PurposeOfLoan']",1000,0.001,0.001,1500,32,0.5,10
+German,gcn,1000,27,2,Gender,0,0,GoodCustomer,"['OtherLoansAtStore', 'PurposeOfLoan']",1000,0.0001,0.0001,1000,32,0.5,50
+German,sage,1000,27,2,Gender,0,0,GoodCustomer,"['OtherLoansAtStore', 'PurposeOfLoan']",1000,0.01,0.001,1500,32,0.5,10
+Recidivism,appnp,18876,18,2,WHITE,0,0,RECID,[],10000,0.001,0.001,1000,32,0.2,10
+Recidivism,gcn,18876,18,2,WHITE,0,0,RECID,[],10000,0.001,0.00001,1500,32,0.5,50
+Recidivism,sage,18876,18,2,WHITE,0,0,RECID,[],10000,0.01,0.001,1500,32,0.2,10

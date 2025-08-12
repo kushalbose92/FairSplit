@@ -1,0 +1,9 @@
+python main.py --dataset=Recidivism --model=gcn --epochs=2000 --max_nodes=10000 --init_lr=0.001 --weight_decay=1e-05 --dropout=0.5 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=Recidivism --model=sage --epochs=2000 --max_nodes=10000 --init_lr=0.01 --weight_decay=0.001 --dropout=0.2 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=Recidivism --model=appnp --epochs=2000 --max_nodes=10000 --init_lr=0.001 --weight_decay=0.001 --dropout=0.2 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=Credit --model=gcn --epochs=2000 --max_nodes=15000 --init_lr=0.01 --weight_decay=0.001 --dropout=0.5 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=Credit --model=sage --epochs=2000 --max_nodes=15000 --init_lr=0.0001 --weight_decay=0.001 --dropout=0.5 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=Credit --model=appnp --epochs=2000 --max_nodes=15000 --init_lr=0.01 --weight_decay=0.001 --dropout=0.5 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=German --model=gcn --epochs=2000 --max_nodes=1000 --init_lr=0.0001 --weight_decay=0.0001 --dropout=0.5 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=German --model=sage --epochs=2000 --max_nodes=1000 --init_lr=0.01 --weight_decay=0.001 --dropout=0.5 --data_folder=D:/Indranil/ML2/Datasets/
+python main.py --dataset=German --model=appnp --epochs=2000 --max_nodes=1000 --init_lr=0.001 --weight_decay=0.001 --dropout=0.5 --data_folder=D:/Indranil/ML2/Datasets/

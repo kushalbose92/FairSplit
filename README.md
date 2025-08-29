@@ -9,10 +9,10 @@ It supports multiple downstream tasks such as unsupervised homophily estimation,
 ## 📂 Project Structure
 ```
 FairSplit/
-│── FairSplit                  # Unsupervised Homophily Estimation, Link Prediction 
-│── FairSplit2                  # Product Recommendation
-│── requirements.txt         # Dependencies
-│── README.md                # Project info
+│── FairSplit			# Unsupervised Homophily Estimation, Link Prediction 
+│── FairSplit2		# Product Recommendation
+│── requirements.txt	# Dependencies
+│── README.md 		# Project info
 ```
 
 ---

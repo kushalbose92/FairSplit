@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (if you later create one)
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Results and experiment artifacts
+results/
+plots/
+*.png
+*.csv
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Python cache
+*.pkl
+*.pt
+*.pth
+
+# Torch lightning or other experiment dirs (if used)
+lightning_logs/
+
+# Checkpoints / saved models
+checkpoints/
+*.ckpt
+*.pt

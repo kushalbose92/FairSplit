@@ -70,4 +70,5 @@ Results are saved in:
 
 ## 👨‍💻 Contributors
 - Indranil Ojha
+- Kushal Bose
 
